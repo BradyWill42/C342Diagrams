@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="Page-1" id="LLxXh8Bos9mLMzlW9-cS">
-    <mxGraphModel dx="1733" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="853" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KjMrdtRbTa5HV9kNTz-4-63" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="310" width="330" as="geometry" />
+        </mxCell>
         <mxCell id="KjMrdtRbTa5HV9kNTz-4-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
           <mxGeometry height="300" width="172.5" x="360" y="690" as="geometry" />
         </mxCell>
@@ -77,7 +80,7 @@
             <mxPoint x="345" y="719.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KjMrdtRbTa5HV9kNTz-4-40" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" value="firewall.acme.lcl&lt;div&gt;44.102.3.2&lt;br&gt;192.168.1.1&lt;br&gt;192.168.2.1&lt;br&gt;172.24.3.1&lt;br&gt;44.103.3.1&lt;/div&gt;" vertex="1">
+        <mxCell id="KjMrdtRbTa5HV9kNTz-4-40" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" value="&lt;b&gt;firewall.acme.lcl&lt;/b&gt;&lt;div&gt;&lt;b&gt;192.168.1.1&lt;br&gt;192.168.2.1&lt;br&gt;172.24.3.1&lt;br&gt;44.103.3.1&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="190" width="190" x="10" y="440" as="geometry" />
         </mxCell>
         <mxCell id="KjMrdtRbTa5HV9kNTz-4-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;servers.acme.lcl&lt;br&gt;172.24.3.0/24&lt;br&gt;&lt;/b&gt;" vertex="1">
@@ -109,6 +112,21 @@
         </mxCell>
         <mxCell id="KjMrdtRbTa5HV9kNTz-4-58" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;The logical topology shown above highlights key aspects of the configured network, including:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Device Hostnames&lt;/li&gt;&lt;li&gt;Device IP Addresses&lt;/li&gt;&lt;li&gt;Organizational Units and IP Zones&lt;/li&gt;&lt;li&gt;VLAN Connections&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="230" width="270" x="30" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="KjMrdtRbTa5HV9kNTz-4-60" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;fontStyle=0" value="&lt;span&gt;ISP DNS Server A&lt;br&gt;44.2.2.44&lt;/span&gt;" vertex="1">
+          <mxGeometry height="89" width="49.84" x="75.08" y="85.91" as="geometry" />
+        </mxCell>
+        <mxCell id="KjMrdtRbTa5HV9kNTz-4-61" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="ISP DNS Server B&lt;br&gt;44.2.2.45" vertex="1">
+          <mxGeometry height="89" width="49.84" x="205.07999999999998" y="85.91" as="geometry" />
+        </mxCell>
+        <mxCell id="KjMrdtRbTa5HV9kNTz-4-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Public CIT Network&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="124.92" y="229.18999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="KjMrdtRbTa5HV9kNTz-4-64" edge="1" parent="1" source="KjMrdtRbTa5HV9kNTz-4-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;strokeWidth=3;endArrow=none;endFill=0;" target="KjMrdtRbTa5HV9kNTz-4-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KjMrdtRbTa5HV9kNTz-4-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="DNAT/PAT&lt;br&gt;&lt;div&gt;44.102.3.2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="30" y="337.14" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
