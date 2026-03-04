@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="Page-1" id="6TzQ4LjmXFeh8hijVN4r">
-    <mxGraphModel dx="1020" dy="2083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="853" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,7 +131,7 @@
           <mxGeometry height="30" width="107.29" x="68.13000000000002" y="350" as="geometry" />
         </mxCell>
         <mxCell id="GRulBXkLt11UpB8gU7f2-149" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;The physical network topology shown above highlights key aspects of the configured devices, including:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Device Name&lt;/li&gt;&lt;li&gt;Ethernet and Serial Connections&lt;/li&gt;&lt;li&gt;Fiber connections and Nutanix VLANs&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Additionally, the Cisco 2901-A Term Server connected serially to each configured device&#39;s serial port in via 2 ASYNC-16 module which was excluded from the diagram for brevity.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="230" width="270" x="310.11" y="770" as="geometry" />
+          <mxGeometry height="230" width="270" x="359.55" y="810" as="geometry" />
         </mxCell>
         <mxCell id="GRulBXkLt11UpB8gU7f2-150" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Cisco 2901-A Term Server" vertex="1">
           <mxGeometry height="30" width="107.29" x="4.690000000000012" y="218" as="geometry" />
@@ -421,25 +421,25 @@
         <mxCell id="9Pj5zJrp7q69rLAfAFCi-11" edge="1" parent="1" source="GRulBXkLt11UpB8gU7f2-79" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="9Pj5zJrp7q69rLAfAFCi-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9Pj5zJrp7q69rLAfAFCi-13" connectable="0" parent="9Pj5zJrp7q69rLAfAFCi-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="G0/4" vertex="1">
+        <mxCell id="9Pj5zJrp7q69rLAfAFCi-13" connectable="0" parent="9Pj5zJrp7q69rLAfAFCi-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="G0/4-7" vertex="1">
           <mxGeometry relative="1" x="-0.8034" y="2" as="geometry">
-            <mxPoint x="-25" y="2" as="offset" />
+            <mxPoint x="-32" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9Pj5zJrp7q69rLAfAFCi-12" edge="1" parent="1" source="GRulBXkLt11UpB8gU7f2-79" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="9Pj5zJrp7q69rLAfAFCi-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9Pj5zJrp7q69rLAfAFCi-14" connectable="0" parent="9Pj5zJrp7q69rLAfAFCi-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="G0/5" vertex="1">
+        <mxCell id="9Pj5zJrp7q69rLAfAFCi-14" connectable="0" parent="9Pj5zJrp7q69rLAfAFCi-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="G0/4-7" vertex="1">
           <mxGeometry relative="1" x="-0.7749" y="-1" as="geometry">
-            <mxPoint x="-6" y="8" as="offset" />
+            <mxPoint x="-2" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9Pj5zJrp7q69rLAfAFCi-15" edge="1" parent="1" source="GRulBXkLt11UpB8gU7f2-75" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="9Pj5zJrp7q69rLAfAFCi-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9Pj5zJrp7q69rLAfAFCi-16" connectable="0" parent="9Pj5zJrp7q69rLAfAFCi-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="G0/3" vertex="1">
+        <mxCell id="9Pj5zJrp7q69rLAfAFCi-16" connectable="0" parent="9Pj5zJrp7q69rLAfAFCi-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="G0/3-6" vertex="1">
           <mxGeometry relative="1" x="-0.7861" y="-1" as="geometry">
-            <mxPoint x="2" y="-11" as="offset" />
+            <mxPoint x="6" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
