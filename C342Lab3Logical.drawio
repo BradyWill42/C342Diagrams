@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.5">
   <diagram name="Page-1" id="LLxXh8Bos9mLMzlW9-cS">
-    <mxGraphModel dx="1213" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1277" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KjMrdtRbTa5HV9kNTz-4-63" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="290" width="290" as="geometry" />
+        </mxCell>
         <mxCell id="KjMrdtRbTa5HV9kNTz-4-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
           <mxGeometry height="300" width="172.5" x="633.75" y="750" as="geometry" />
-        </mxCell>
-        <mxCell id="KjMrdtRbTa5HV9kNTz-4-63" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="360" width="360" as="geometry" />
         </mxCell>
         <mxCell id="KjMrdtRbTa5HV9kNTz-4-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
           <mxGeometry height="300" width="172.5" x="410" y="750" as="geometry" />
@@ -117,7 +117,7 @@
           <mxGeometry height="270" width="305.08" x="40" y="790" as="geometry" />
         </mxCell>
         <mxCell id="KjMrdtRbTa5HV9kNTz-4-60" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;fontStyle=0" value="&lt;span&gt;ISP DNS Server A&lt;/span&gt;&lt;div&gt;&lt;span&gt;44.2.2.44&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="28" x="140" y="45" as="geometry" />
+          <mxGeometry height="50" width="28" x="98" y="40" as="geometry" />
         </mxCell>
         <mxCell id="KjMrdtRbTa5HV9kNTz-4-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Public CIT Network&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="135" y="286.1" as="geometry" />
@@ -135,16 +135,13 @@
           <mxGeometry height="106.1" width="115.32" x="402.33" y="348.9" as="geometry" />
         </mxCell>
         <mxCell id="yG8P1Iu5Pt4KOUD89LgE-18" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;fontStyle=0" value="&lt;span&gt;ISP DNS Server B&lt;/span&gt;&lt;div&gt;&lt;span&gt;44.2.2.45&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="28" x="251" y="80" as="geometry" />
+          <mxGeometry height="50" width="28" x="189" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="yG8P1Iu5Pt4KOUD89LgE-19" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;fontStyle=0" value="tick.cit.lcl&lt;div&gt;NTP&lt;br&gt;&lt;div&gt;&lt;span&gt;44.2.1.45&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="28" x="166" y="160" as="geometry" />
+        <mxCell id="yG8P1Iu5Pt4KOUD89LgE-19" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;fontStyle=0" value="tock.cit.lcl&lt;div&gt;NTP&lt;br&gt;&lt;div&gt;&lt;span&gt;44.2.1.45&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="28" x="150" y="170" as="geometry" />
         </mxCell>
         <mxCell id="yG8P1Iu5Pt4KOUD89LgE-20" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;fontStyle=0" value="tick.cit.lcl&lt;div&gt;NTP&lt;br&gt;&lt;div&gt;&lt;span&gt;44.2.1.44&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="28" x="86" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="yG8P1Iu5Pt4KOUD89LgE-21" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;fontStyle=0" value="mailtest.cit.lcl&lt;div&gt;SMTP&lt;br&gt;&lt;div&gt;&lt;span&gt;44.2.1.32&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="28" x="251" y="180" as="geometry" />
+          <mxGeometry height="50" width="28" x="70" y="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
